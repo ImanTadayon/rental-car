@@ -224,7 +224,7 @@ img[src="./image/frooooo-01.png"] {
 }
 
 .number-2 {
-  padding: 5vh;
+  padding: 5vh 0 3vh 0;
 }
 
 .section3 {
@@ -387,10 +387,6 @@ img[src="./image/frooooo-01.png"] {
 }
 
 .info-car-1 {
-  /* font-size: 25px;
-  color: #7c7c7c;
-  text-align: end;
-  width: 80%; */
   font-size: 25px;
   color: #7c7c7c;
   text-align: end;
@@ -431,7 +427,7 @@ img[src="./image/frooooo-01.png"] {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: 60px;
+  margin-left: -354px;
   z-index: 3;
 }
 
@@ -522,7 +518,7 @@ img[src="./image/frooooo-01.png"] {
 }
 
 .form-conect {
-  background-color: rgb(236, 239, 246);
+  background-color: rgb(222 230 247);
   padding: 48px;
   width: 800px;
 }
@@ -681,13 +677,15 @@ footer p {
   }
 }
 @media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
   img[src="./image/frooooo-01.png"] {
     top: -90px;
   }
   .description {
     font-size: 16px;
     top: 50px;
-    position: inherit;
   }
 
   .select-search {
@@ -695,7 +693,7 @@ footer p {
   }
 
   .card-1 {
-    width: 380px;
+    width: 340px;
     height: 120px;
     font-size: 16px;
   }
@@ -707,7 +705,7 @@ footer p {
     font-size: 24px;
   }
   .card-2 {
-    width: 380px;
+    width: 340px;
     height: 300px;
   }
   .icon-p2 {
@@ -717,11 +715,11 @@ footer p {
     font-size: 18px;
   }
   .number-card {
-    font-size: 10vh;
-  }
-  .number-card {
+    font-size: 80px;
+    font-weight: bold;
     width: 148px;
   }
+
   .card-title {
     font-size: 24px;
   }
@@ -738,7 +736,7 @@ footer p {
     font-size: 16px;
   }
   .div-offer {
-    width: 380px;
+    width: 340px;
     height: 300px;
   }
   .car-image-1 {
@@ -747,7 +745,7 @@ footer p {
   }
   .car-pic {
     height: 360px;
-    width: 380px;
+    width: 340px;
   }
   .title-3 {
     font-size: 16px;
@@ -763,7 +761,7 @@ footer p {
     font-weight: 600;
   }
   .card-info-1 {
-    left: 112px;
+    left: 95px;
     position: relative;
   }
   .car-1,
@@ -772,26 +770,26 @@ footer p {
   }
 
   .member {
-    font-size: 18px;
+    font-size: 16px;
   }
   .date-off {
     font-size: 12px;
   }
   .car-image-2 {
     width: 216px;
-    right: -334px;
+    right: -45px;
   }
   .info-car-2 {
     font-size: 12px;
     width: 60%;
   }
   .card-info-2 {
-    left: 70px;
+    left: 500px;
     position: relative;
   }
   .form-conect,
   .p3-right {
-    width: 400px;
+    width: 360px;
   }
   .form-conect {
     padding: 24px;
@@ -841,12 +839,17 @@ footer p {
   .up {
     display: none;
   }
-  * {
-    overflow-x: hidden;
-  }
+
   #description {
     top: -90px;
     position: relative;
     width: 85%;
+  }
+  .car2 {
+    position: absolute;
+    left: 273px;
+  }
+  .p3-obj {
+    padding-top: 0;
   }
 }
